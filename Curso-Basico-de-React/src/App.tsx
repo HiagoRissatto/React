@@ -1,10 +1,10 @@
 import "bootstrap/dist/css/bootstrap.min.css";
-import Usuario from "./components/NomeUsuario";
+import Cadastro from "./components/CadastroUsuario";
 
 export function App() {
   return (
     <div className="container py-5">
-      <Usuario/>
+      <Cadastro/>
     </div>
   );
 }
